@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
     TextView mTextView;
     @BindString(R.string.app_name)                   //Binding the String using butterknife
     String mString;
-    @BindColor(R.color.colorAccent)                  //Binding the colour using butterknife
-    Color color;
+    
     @BindDrawable(R.drawable.ic_launcher_background) //Binding the drawable using butterknife
     Drawable launcher;
 
