@@ -1,0 +1,14 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/upload_icon"
+        android:enabled="true"
+      >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage=".program.sample.praveen"
+            android:targetClass=".program.sample.praveen.MainActivity"
+            android:data="https://myapp.com/post"/>
+        <categories android:name="android.shortcut.post"/>
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
